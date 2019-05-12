@@ -1,0 +1,9 @@
+{
+  "name": "movie-hacker",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:prxg22/movie-hacker.git",
+  "author": "Paulo Ricardo Xavier Giusti <prxg22@gmail.com>",
+  "license": "MIT",
+  "private": false
+}
