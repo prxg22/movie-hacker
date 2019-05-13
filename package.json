@@ -5,5 +5,16 @@
   "repository": "git@github.com:prxg22/movie-hacker.git",
   "author": "Paulo Ricardo Xavier Giusti <prxg22@gmail.com>",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "scripts": {
+    "lint": "eslint .",
+    "start": "nodemon ."
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "nodemon": "^1.19.0"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2"
+  }
 }

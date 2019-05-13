@@ -1,9 +1,0 @@
-$ valentina@c:/Documents/ (master) $ dwoiaojdawdijawid
-+ scripts loading...
-+ tcp connection succed!
-+ \t\t ip \t | \t sccp \t| net \t |
-+ \t\t 123.042.2.12 \t | \t aow.dood.com \t| :939 \t |
-+ \t\t 123.042.2.12 \t | \t aow.dood.com \t| :939 \t |
-+ \t\t 123.042.2.12 \t | \t aow.dood.com \t| :939 \t |
-+ \t\t 123.042.2.12 \t | \t aow.dood.com \t| :939 \t |
-+ \t\t 123.042.2.12 \t | \t aow.dood.com \t| :939 \t |
