@@ -90,7 +90,8 @@ const render = async (patches) => {
   }
 
   await r()
-  await wait(3000)
+  waitKey(27).then(async () => await r(patches.length - 1))
+  await waitKey(13)
 }
 
 module.exports = render
