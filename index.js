@@ -1,14 +1,13 @@
-const parse = require('./parse')
-const render = require('./render')
+const parse = require('./src/parse')
+const render = require('./src/render')
 const { SCRIPT_PATH } = require('./constants')
 
 const run = async () => {
   try {
-    const commands = await parse(SCRIPT_PATH)
-    console.log(commands)
-    // render({ keys, patches })
+    const patches = await parse(SCRIPT_PATH)
+    return render(patches)
   } catch(e) {
-    console.error(e)
+    console.error('ERROR: ', e || 'system error try later')
   }
 }
 
