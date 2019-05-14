@@ -1,10 +1,9 @@
 const parse = require('./src/parse')
 const render = require('./src/render')
-const { SCRIPT_PATH } = require('./constants')
 
 const run = async () => {
   try {
-    const patches = await parse(SCRIPT_PATH)
+    const patches = await parse(process.argv[2] || "script.txt")
     return render(patches)
   } catch(e) {
     console.error('ERROR: ', e || 'system error try later')
